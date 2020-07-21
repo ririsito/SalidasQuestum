@@ -27,13 +27,14 @@ namespace SalidasQuestum
 
         public bool ActiveDirectoryAuthenticate(string username, string password)
         {
-
+            Server.Transfer("View/formatoSalida.aspx.aspx");
             try
             {
                 LdapConnection connection = new LdapConnection("corp.quimmco.com.mx");
                 System.Net.NetworkCredential credential = new System.Net.NetworkCredential(username, password);
                 connection.Credential = credential;
                 connection.Bind();
+            
                 return true;
             }
             catch (LdapException lexc)
@@ -48,7 +49,7 @@ namespace SalidasQuestum
                 return false;
             }
 
-
+          
         }
     }
 }

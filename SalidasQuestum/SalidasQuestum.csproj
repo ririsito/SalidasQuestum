@@ -229,7 +229,7 @@
     <Content Include="docs\_layouts\post.html" />
     <Content Include="img\bg.jpeg" />
     <Content Include="img\logo.png" />
-    <Content Include="index.html" />
+    <Content Include="img\qlogo.png" />
     <Content Include="plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
     <Content Include="plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css" />
     <Content Include="plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
@@ -1852,6 +1852,7 @@
     <Content Include="plugins\toastr\toastr.css" />
     <Content Include="plugins\toastr\toastr.min.css" />
     <Content Include="plugins\toastr\toastr.min.js" />
+    <Content Include="View\formatoSalida.aspx" />
     <Content Include="Web.config" />
     <Content Include="Index.aspx" />
   </ItemGroup>
@@ -1863,6 +1864,20 @@
     </Compile>
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\formatoSalida.aspx.cs">
+      <DependentUpon>formatoSalida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\formatoSalida.aspx.designer.cs">
+      <DependentUpon>formatoSalida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Home.Master.cs">
+      <DependentUpon>Home.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Home.Master.designer.cs">
+      <DependentUpon>Home.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -2107,6 +2122,7 @@
     <Content Include="plugins\summernote\summernote.min.js.map" />
     <Content Include="plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss" />
     <Content Include="plugins\toastr\toastr.js.map" />
+    <Content Include="View\Home.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

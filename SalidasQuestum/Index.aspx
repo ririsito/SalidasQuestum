@@ -27,8 +27,8 @@
 </head>
 <body  class="hold-transition login-page " style="background:url(../img/fondoq.jpg) no-repeat center top" >
    <div class="login-box">
-      <img src="img/logo.png" class="avatar" alt="Avatar Image">
-      <h1>Login Here</h1>
+      <img src="../img/qlogo.jpg" class="avatar" alt="Avatar Image">
+      <h1>Login </h1>
       <form runat="server">
         <!-- USERNAME INPUT -->
         <div class="input-group mb-3">
@@ -48,6 +48,7 @@
                     </div>
                 </div>
          <asp:Button ID="BtnIngresar" runat="server" Text="Iniciar Sesion" CssClass="btn bg-aqua btn-block" OnClick="BtnIngresar_Click" />  
+
       </form>
     </div>
 </body>
