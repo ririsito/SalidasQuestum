@@ -19,7 +19,7 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body class="hold-transition layout-top-nav">
+<body class="hold-transition layout-top-nav" >
     <form id="form1" runat="server">
         <div class="wrapper">
             <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">

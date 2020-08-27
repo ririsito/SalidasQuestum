@@ -27,7 +27,7 @@ namespace SalidasQuestum
 
         public bool ActiveDirectoryAuthenticate(string username, string password)
         {
-            Server.Transfer("View/formatoSalida.aspx.aspx");
+            //Server.Transfer("View/formatoSalida.aspx.aspx");
             try
             {
                 LdapConnection connection = new LdapConnection("corp.quimmco.com.mx");
